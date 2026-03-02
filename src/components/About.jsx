@@ -48,7 +48,7 @@ const About = () => {
                         {[
                             ["2024 - 2027", "B.Tech | Computer Science Engineering", "Shri Venkateshwara University"],
                             ["2020 - 2023", "Diploma | Computer Engineering", "DSEU Rajokri Campus"],
-                            ["2019 - 2020", "10th Standard", "Nee Sainik Public Sr. Sec. School"],
+                            ["2019 - 2020", "10th Standard", "New Sainik Public Sr. Sec. School"],
                         ].map((edu, i) => (
                             <div key={i} className="flex gap-6 mb-6">
                                 <span className="text-gray-500 min-w-[90px]">{edu[0]}</span>
